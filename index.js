@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
-const port = process.env.port || 3000
+const port = process.env.port || 9000
 
 //JSON response to root endpoint
-app.get('/', (req, res) => {
+app.get('', (req, res) => {
   res.json({ status: 'Ok' })
 })
 
